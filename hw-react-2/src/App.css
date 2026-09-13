@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #e5e7eb;
+  color: #222;
+}
+
+.ui-container{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.ui-header{
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.ui-header h2{
+  color: #333;
+  font-weight: 600;
+}
+
+.album-card{
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.album-cover-wrapper{
+  width: 100%;
+  max-width: 300px;
+}
+
+.album-cover{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.album-info h1{
+  margin: 8px 0;
+  font-size: 1.3rem;
+  color: #555;
+  text-align: center;
+}
+
+.album-meta{
+  margin: 16px 0 0 0;
+  font-size: 0.95rem;
+  color: #777;
+  text-align: center;
+}
